@@ -1,0 +1,79 @@
+/* SELECTORES */
+/* universal  es el * aplica clase a todo el documento */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1cqw;
+    padding: 0%;
+}
+/* selector de etiqueta  */
+h1{
+    background: red;
+    color: blue;
+    font-size: 20;
+    text-decoration: underline;
+    text-rendering: auto;
+}
+/* a{
+    background: green;
+    color: aquamarine;
+} */
+/* selector compuesto */
+footer a{
+    background: yellow;
+    color: rgb(108, 15, 15);
+}
+/* selector de clase  */
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* selector de id  */
+#descripcion{
+    border: 5px solid black;
+    padding: 15;
+}
+/* selector de atributo  uso especial en los formularios */
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+input[type="submit"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+    color: blueviolet;
+    background-color: rgb(159, 201, 75);
+}
+/* SELECTORES POR ATRIBUTOS */
+#usuario form{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 20px;
+}
+/* aplicacion a todos los elementos del formulario */
+#usuario form * {
+    display: block;
+}
+
+input[type="text"]{
+margin-bottom: 15px;
+padding: 10px;
+width: 300px;
+}
+
+input[type="submit"]{
+    color: green;
+    /* background-color: rgb(4, 18, 118); */
+}
+/* SELECTORES HIJO  */
+/* #lista1 a{
+    background: green;
+    color: aquamarine;
+} */
+#lista1 > li > a{
+    color: red;
+    text-decoration: none;
+}

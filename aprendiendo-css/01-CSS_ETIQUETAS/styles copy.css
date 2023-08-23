@@ -1,0 +1,10 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    color: blue;
+    font-size: 20;
+    text-decoration: underline;
+    text-rendering: auto;
+}

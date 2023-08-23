@@ -1,0 +1,10 @@
+body{
+    background-color: aliceblue;
+    background-image: url('./assets/img/patron.png');
+}
+#caja{
+    border: 2px solid black;
+    padding: 50px;
+    background-color: aquamarine;
+    color: white;
+}

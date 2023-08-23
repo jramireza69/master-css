@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#general{
+    width: 1200px;
+    border: 2px solid blue;
+    margin: 0px auto;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 90px;
+}
+.clearfix{
+    float: none;
+    clear: both;  /* eliminar los elementos flotantes */
+}
+#menu{
+    background-color: #ccc;
+}
+#menu ul li{
+    /* display: inline-block; */
+
+    display: block;
+    float: left;
+    padding: 10px;  /* incrementar el alto de la fila */
+    border-right: 1px solid #b80b0b;  /* separardor entre cada elemento o poner celdas */
+}
+
+/* enlaces cambiar el color para acceder */
+#menu ul li a{
+    color: black;
+}
+#menu ul li:hover {
+    background-color: blue;
+}
+
+#menu ul li  a:hover{
+    color: white;
+}
+#contenido{
+    width: 70%;
+    border: 1px solid gold;
+    float: left;
+}
+#lateral{
+    margin-top: 20px;
+    width: 25%;
+    border: 1px solid red;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+}
+#contenido > h2{
+    text-align: center;
+    border-bottom: 2px solid blueviolet;
+    padding: 20px;
+    color: orange;
+}
+#contenido .caja {
+    width: 40%;
+    height: 125px;
+    background-color: rgb(2, 61, 61);
+    border: 3px solid rebeccapurple;
+    color: white;
+    float: left;
+    margin: 25px;
+    margin-left: 40px;
+
+}
+#footer{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background: #eee;
+    color: #444;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
